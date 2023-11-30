@@ -1,0 +1,16 @@
+.edunews{
+	padding-top: 10vh;
+	width: 100%;
+}
+
+.edunews-container{
+	padding: 10px;
+	width: 100%;
+	display: grid;
+  	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;/*gap between cards*/
+}
+
+.edunews-img{
+	width: 40%;
+}

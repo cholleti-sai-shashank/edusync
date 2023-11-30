@@ -1,0 +1,22 @@
+.topbar{
+	height: 10vh;
+	width: 100%;
+	background-color: rgba(0, 255, 255, 0.54);
+	position: fixed;
+	top: 0;/*so that top bar won't come down*/
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;/*logo and icons seperated*/
+}
+/*logo is styled in register and login styles*/
+.topbar-icons{
+	padding: 0 10px;
+}
+.react-icon{
+	margin: 25px;/*it's not padding, else everywhere it will be cursor pointer*/
+	color: black;
+}
+.react-icon:hover{
+	cursor: pointer;
+}
